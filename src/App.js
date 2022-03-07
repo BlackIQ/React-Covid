@@ -1,9 +1,13 @@
 import './App.css';
+import Country from "./components/country";
+import Countries from "./components/countries";
 
 function App() {
   return (
     <div className="container">
-      <h1>Covid React</h1>
+      <div className="row">
+          <Countries />
+      </div>
     </div>
   );
 }
