@@ -10,6 +10,12 @@ If you don't know, that is [http://covidapi.com](covidapi.com). But there is a p
 
 If you know any better API, please open an issue and suggest it.
 
+### Preview
+
+![Home](public/images/home.png)
+![Items](public/images/items.png)
+![Mobile](public/images/mobile.png)
+
 ### My opinion
 
 I worked with Flutter and Flask for APIs. The most simple way to use APIs is in React.
