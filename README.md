@@ -1,4 +1,4 @@
-# Covid React
+# [React Covid](https://blackiq.github.io/React-Covid)
 
 This a practical project to user APIs in a base level. Just fetch data and render it in components.
 
