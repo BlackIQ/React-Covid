@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/React-Covid/static/css/main.aa5dcc60.css",
+    "main.js": "/React-Covid/static/js/main.898313b4.js",
+    "index.html": "/React-Covid/index.html",
+    "main.aa5dcc60.css.map": "/React-Covid/static/css/main.aa5dcc60.css.map",
+    "main.898313b4.js.map": "/React-Covid/static/js/main.898313b4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa5dcc60.css",
+    "static/js/main.898313b4.js"
+  ]
+}
