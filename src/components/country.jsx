@@ -1,8 +1,6 @@
 import {FaHospital, FaPlus, FaSkull} from "react-icons/fa";
 
 const Country = (country) => {
-    console.log(country.country);
-
     return (
         <div className="col-md-3">
             <div className="m-3 card border">
