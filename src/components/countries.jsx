@@ -1,5 +1,6 @@
 import {useEffect, useState} from "react";
 import Country from "./country";
+import Loading from "./loading";
 
 const Countries = () => {
     const [countries, setCountries] = useState(null);
@@ -12,14 +13,7 @@ const Countries = () => {
         });
     }, []);
 
-    const loading = <div className="m-3">
-        <hr />
-        <h4>Loading data . . .</h4>
-    </div>
-
-    return (
-        countries ? countries.map(country => <Country Key={country.id} country={country}/>) : loading
-    );
+    return (countries ? countries.map(country => <Country Key={country.id} country={country}/>) : <Loading />);
 }
 
 export default Countries;
